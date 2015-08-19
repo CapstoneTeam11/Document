@@ -1,0 +1,129 @@
+
+.bootstrap-tagsinput {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    /* width: 200px; */
+    max-width: 100%;
+    display: block;
+    color: #2f3239;
+    border: 1px solid #dedede;
+    -moz-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    -o-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+    background: #f3f3f3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.accordion {
+    margin-bottom:-3px;
+}
+
+.accordion-group {
+    border: none;
+}
+
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint {
+    margin-bottom: 0;
+}
+
+.twitter-typeahead .tt-hint
+{
+    display: none;
+}
+
+.tt-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 300px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+.tt-suggestion > li{
+    padding: 0px 0px 0px 0px;
+    line-height: 1.428571429;
+}
+.tt-suggestion .tt-cursor {
+    line-height: 10;
+}
+
+#invite-teacher .tt-suggestion > p {
+
+}
+.tt-suggestion > p{
+    margin: 5px 0px;
+    padding: 0px;
+    display: block;
+    padding: 5px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1;
+    color: #333333;
+    white-space: nowrap;
+}
+.tt-suggestion > p:hover,
+.tt-suggestion > p:focus,
+.tt-suggestion.tt-cursor p {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #428bca;
+}
+.tt-suggestion.tt-cursor {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #428bca;
+}
+.tt-suggestion {
+    margin: 5px 0px;
+    padding: 0px;
+    display: block;
+    padding: 5px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1;
+    color: #333333;
+    white-space: nowrap;
+}
+.author-imgTag {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.unableFind {
+    margin: 10px 0px;
+    padding: 0px;
+    display: block;
+    padding: 5px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1;
+    color: #333333;
+    white-space: nowrap;
+}
